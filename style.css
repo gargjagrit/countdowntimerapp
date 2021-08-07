@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/05/28/00/06/gift-1420830__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span{
+    display: block;
+    font-size: 4.5em;
+
+}
+
+span{
+    font-size: 30px;
+}
+
+#myBirthday{
+    font-size: 35px;
+    color: orange;
+}
+
+h1{
+    color: lawngreen;
+}
+
+#gift{
+    width: 300px;
+    visibility: hidden;
+}
+
+h2{
+    font-size: 35px;
+    color: gold;
+    visibility: hidden;
+}
+
